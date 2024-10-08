@@ -76,4 +76,4 @@ if selected == 'Catatan':
     st.write('2. Menu yang dibuat ada 2 yaitu Klasfikasi dan Regresi.')
     st.write('3. Inputan nya apa aja, seusaikan dengan arsitektur code anda pada notebook.')
     st.write('4. Referensi desain streamlit dapat di aksed pada https://streamlit.io/')
-    st.write('5. Link streamlit desain ini dapat di akses pada "https://apputs-6qzfvr4ufiyzhj84mrfkt7.streamlit.app/".')
+    st.write('5. Link streamlit desain ini dapat di akses pada https://apputs-6qzfvr4ufiyzhj84mrfkt7.streamlit.app/')
