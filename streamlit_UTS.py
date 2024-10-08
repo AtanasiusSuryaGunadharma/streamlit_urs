@@ -16,21 +16,21 @@ if selected == 'Klasifikasi':
 
     st.write('Untuk Inputan File dataset (csv) bisa menggunakan st.file_uploader')
     file = st.file_uploader("Masukkan File", type=["csv", "txt"])
-    # Input untuk panjang dan lebar
-    st.write('Untuk inputan manual bisa menggunakan st.number_input')
-    panjang = st.number_input("Masukan Input", 0)
     st.write('Untuk usia bisa menggunakan st.slider')
     Age = st.slider("Age",0,100)
     st.write('Untuk jenis kelamin bisa menggunakan st.radio')
     Sex = st.radio("Gender",["Female","Male"])
     st.write('Untuk beberapa kolom bisa menggunakan st.selectbox')
     nama_kolom = st.selectbox("Nama Kolom",["Under","Normal","Over"])
+    # Input untuk panjang dan lebar
+    st.write('Untuk inputan manual bisa menggunakan st.number_input')
+    panjang = st.number_input("Masukan Input", 0)
     lebar = st.number_input("Masukan Nilai Lebar", 0)
 
-    # Tombol untuk menghitung luas
-     # Input jawaban dari pengguna
+    # Input jawaban dari pengguna
     jawaban = st.number_input("Masukkan Jawaban Anda", min_value=0)
     st.write('Tombol button(Menggunakan st.button)')
+    # Tombol untuk menghitung luas
     hitung = st.button("Prediksi")
 
     if hitung:
@@ -48,17 +48,16 @@ if selected == 'Regresi':
 
     st.write('Untuk Inputan File dataset (csv) bisa menggunakan st.file_uploader')
     file = st.file_uploader("Masukkan File", type=["csv", "txt"])
-    # Input untuk panjang dan lebar
-    st.write('Untuk inputan manual bisa menggunakan st.number_input')
-    panjang = st.number_input("Masukan Input", 0)
     st.write('Untuk usia bisa menggunakan st.slider')
     Age = st.slider("Age",0,100)
     st.write('Untuk jenis kelamin bisa menggunakan st.radio')
     Sex = st.radio("Gender",["Female","Male"])
     st.write('Untuk beberapa kolom bisa menggunakan st.selectbox')
     nama_kolom = st.selectbox("Nama Kolom",["Under","Normal","Over"])
+    # Input untuk panjang dan lebar
+    st.write('Untuk inputan manual bisa menggunakan st.number_input')
+    panjang = st.number_input("Masukan Input", 0)
     lebar = st.number_input("Masukan Nilai Lebar", 0)
-
     alas = st.slider("Masukkan Nilai Alas", 0, 100)
     tinggi = st.slider("Masukkan Nilai Tinggi", 0, 100)
     st.write('Tombol button(Menggunakan st.button)')
